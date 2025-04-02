@@ -11,10 +11,10 @@
   "type": "module",
   "devDependencies": {
     "@enkore-target/js-none": "^0.0.3",
-    "@enkore/core": "^0.5.4",
+    "@enkore/core": "^0.6.0",
     "@enkore/spec": "^0.206.0",
     "@enkore/target-js-factory": "^0.0.2",
     "@types/node": "^22.13.14",
-    "enkore": "^0.0.14"
+    "enkore": "^0.0.15"
   }
 }
