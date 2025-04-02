@@ -18,9 +18,9 @@ export const apiRevision = api.apiRevision
 export const compile: API["compile"] = api["compile"];
 export const generateProduct: API["generateProduct"] = api["generateProduct"];
 export const getBoilerplateFiles: API["getBoilerplateFiles"] = api["getBoilerplateFiles"];
+export const getDependenciesToInstall: API["getDependenciesToInstall"] = api["getDependenciesToInstall"];
 export const getGitIgnoredFiles: API["getGitIgnoredFiles"] = api["getGitIgnoredFiles"];
 export const getInitialInternalData: API["getInitialInternalData"] = api["getInitialInternalData"];
-export const getRealmDependenciesToInstall: API["getRealmDependenciesToInstall"] = api["getRealmDependenciesToInstall"];
 export const hook: API["hook"] = {
 	"preCompile": api["hook"]["preCompile"],
 	"preInitialize": api["hook"]["preInitialize"],
