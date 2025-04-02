@@ -1,0 +1,20 @@
+{
+  "name": "@enkore-target/js-none",
+  "version": "0.0.0",
+  "author": "Anio Software <info@anio.software>",
+  "description": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enkore-target-org/js-none.git"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@enkore/core": "^0.4.0",
+    "@enkore/realm-js": "^0.0.11",
+    "@enkore/realm-js-factory": "^0.0.7",
+    "@enkore/spec": "^0.174.0",
+    "@types/node": "^22.13.14",
+    "enkore": "^0.0.10"
+  }
+}
