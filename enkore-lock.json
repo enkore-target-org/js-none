@@ -19,5 +19,6 @@
             "requestedVersion": "0.0.3"
         }
     },
-    "realmDependenciesStamp": "658af73a7b07b1ae0ae6e6b8f53c85486563137170024bd3f15a0cf322bad694-0.4.0"
+    "realmDependenciesStamp": "658af73a7b07b1ae0ae6e6b8f53c85486563137170024bd3f15a0cf322bad694-0.5.4",
+    "targetIdentifier": "js-none"
 }
