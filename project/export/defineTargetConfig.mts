@@ -1,14 +1,14 @@
 import {
 	type RawType,
-	type EnkoreRealmJSConfig_V0_Rev0,
+	type EnkoreTargetJSNone_V0_Rev0,
 	createEntity
 } from "@enkore/spec"
 
 export function defineTargetConfig(
-	config: Omit<RawType<EnkoreRealmJSConfig_V0_Rev0>, "_realm">
+	config: Omit<RawType<EnkoreTargetJSNone_V0_Rev0>, "_targetIdentifier">
 ) {
-	return createEntity("EnkoreRealmJSConfig", 0, 0, {
-		_realm: "js",
+	return createEntity("EnkoreTargetJSNone", 0, 0, {
+		_targetIdentifier: "js-none",
 		...config
 	})
 }

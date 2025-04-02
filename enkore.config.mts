@@ -13,7 +13,7 @@ export default defineConfig({
 			exports: {
 				"realmIntegrationAPI": {
 					checkAgainstInterface: {
-						named: ["@enkore/spec", "EnkoreRealmIntegrationAPI_V0_Rev0"]
+						named: ["@enkore/spec", "EnkoreTargetIntegrationAPI_V0_Rev0"]
 					}
 				}
 			}
@@ -27,9 +27,9 @@ export default defineConfig({
 				let code = ``
 
 				code += `import {generateAPI} from "@enkore/realm-js-factory"\n`
-				code += `import type {EnkoreRealmIntegrationAPI as API} from "@enkore/spec"\n`
+				code += `import type {EnkoreTargetIntegrationAPI as API} from "@enkore/spec"\n`
 
-				code += `const api = generateAPI({target: "none"});\n`
+				code += `const api = generateAPI({target: "js-none"});\n`
 
 				code += generateAPIExportGlueCode(
 					"API", "api", getAPIMethodNames()
