@@ -24,7 +24,7 @@ export default defineConfig({
 				let code = ``
 
 				code += `import {generateAPI} from "@enkore/target-js-factory"\n`
-				code += `import type {EnkoreTargetIntegrationAPI as API} from "@enkore/spec"\n`
+				code += `import type {EnkoreTargetIntegrationAPI_V0_Rev0 as API} from "@enkore/spec"\n`
 
 				code += `const api = generateAPI({target: "js-none"});\n`
 
