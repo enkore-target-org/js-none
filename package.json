@@ -12,7 +12,7 @@
   "devDependencies": {
     "@enkore-target/js-none": "^0.0.7",
     "@enkore/core": "^0.6.3",
-    "@enkore/spec": "^0.209.1",
+    "@enkore/spec": "^0.220.3",
     "@enkore/target-js-factory": "^0.0.4",
     "enkore": "^0.0.16"
   }
