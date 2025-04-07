@@ -31,7 +31,7 @@ export default createConfig({
 				code += `import {generateTargetIntegrationAPI} from "@enkore/target-js-factory/targetIntegration"\n`
 				code += `import type {EnkoreTargetIntegrationAPI_V0_Rev0 as API} from "@enkore/spec"\n`
 
-				code += `const api = await generateTargetIntegrationAPI({target: "js-none"});\n`
+				code += `const api = await generateTargetIntegrationAPI("js-none");\n`
 
 				code += generateAPIExportGlueCode(
 					"API", "api", getTargetIntegrationAPIMethodNames()
