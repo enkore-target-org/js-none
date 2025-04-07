@@ -13,7 +13,7 @@
     "@enkore-target/js-none": "^0.0.9",
     "@enkore/core": "^0.6.6",
     "@enkore/spec": "^0.221.1",
-    "@enkore/target-js-factory": "^0.0.7",
+    "@enkore/target-js-factory": "^0.0.8",
     "enkore": "^0.0.20"
   }
 }
