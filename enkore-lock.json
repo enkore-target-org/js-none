@@ -21,9 +21,9 @@
             "requestedVersion": "0.0.2"
         },
         "@enkore/typescript": {
-            "version": "0.0.8",
-            "requestedVersion": "0.0.8"
+            "version": "0.0.9",
+            "requestedVersion": "0.0.9"
         }
     },
-    "targetDependenciesStamp": "js-none-5fcef007d5f50560fe23c89b79b525d77283e40a998b268a8e1fad8090d7d256-0.6.6"
+    "targetDependenciesStamp": "js-none-96f39816fdbfcf33303e613055b9cf5aa94b1fbadae85663afc587ae503a0da6-0.6.6"
 }
