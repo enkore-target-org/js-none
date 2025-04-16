@@ -17,13 +17,13 @@
     },
     "targetDependencies": {
         "@enkore/rollup": {
-            "version": "0.0.2",
-            "requestedVersion": "0.0.2"
+            "version": "0.0.3",
+            "requestedVersion": "0.0.3"
         },
         "@enkore/typescript": {
-            "version": "0.0.9",
-            "requestedVersion": "0.0.9"
+            "version": "0.0.10",
+            "requestedVersion": "0.0.10"
         }
     },
-    "targetDependenciesStamp": "js-none-96f39816fdbfcf33303e613055b9cf5aa94b1fbadae85663afc587ae503a0da6-0.6.6"
+    "targetDependenciesStamp": "js-none-af56def2b859a8fca13635660f3364ad7ce1b97bc50aba9e0a7b20a2bf80c037-0.6.6"
 }
