@@ -17,17 +17,17 @@
     },
     "targetDependencies": {
         "@enkore/babel": {
-            "version": "0.0.4",
-            "requestedVersion": "0.0.4"
+            "version": "0.0.21",
+            "requestedVersion": "0.0.21"
         },
         "@enkore/rollup": {
             "version": "0.0.3",
             "requestedVersion": "0.0.3"
         },
         "@enkore/typescript": {
-            "version": "0.0.10",
-            "requestedVersion": "0.0.10"
+            "version": "0.0.15",
+            "requestedVersion": "0.0.15"
         }
     },
-    "targetDependenciesStamp": "js-none-bb4fffeff4636df59e9635a5018c6423112ad439d39b794bfc6adeae8faadbee-0.6.6"
+    "targetDependenciesStamp": "js-none-d4c49bbce31aefa540fafa4bf757d680017534db48c9d830a0b0b27eca5154bb-0.6.6"
 }
