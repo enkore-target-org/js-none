@@ -18,7 +18,9 @@
         "../project/src/**/*",
         "../project/export/**/*",
         "../build/src/**/*",
-        "../build/export/**/*",
-        "../enkore.config.mts"
+        "../build/export/**/*"
+    ],
+    "references": [
+        {"path": "./embeds.json"}
     ]
 }
