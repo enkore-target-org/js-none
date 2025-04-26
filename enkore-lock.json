@@ -17,8 +17,8 @@
     },
     "targetDependencies": {
         "@enkore/babel": {
-            "version": "0.0.23",
-            "requestedVersion": "0.0.23"
+            "version": "0.0.24",
+            "requestedVersion": "0.0.24"
         },
         "@enkore/rollup": {
             "version": "0.0.3",
@@ -29,5 +29,5 @@
             "requestedVersion": "0.0.15"
         }
     },
-    "targetDependenciesStamp": "js-none-fecca1aa7feecc54a1166bca06f4fe8c3c89bb8c6b257ced4536a88f99207c3e-0.6.7"
+    "targetDependenciesStamp": "js-none-8d2b2aad134b145570469f6ea1360b37a622dba7726895bb82df563d7e7a8dd9-0.6.7"
 }
