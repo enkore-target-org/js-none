@@ -28,7 +28,7 @@ export const config: unknown = createConfig({
 			exports: {
 				"targetIntegrationAPI": {
 					checkAgainstInterface: [
-						"@enkore/spec",
+						"@asint/enkore__spec",
 						"EnkoreTargetIntegrationAPI_V0_Rev0"
 					]
 				}
@@ -43,7 +43,7 @@ export const config: unknown = createConfig({
 				let code = ``
 
 				code += `import {generateTargetIntegrationAPI} from "@enkore/target-js-factory/targetIntegration"\n`
-				code += `import type {EnkoreTargetIntegrationAPI_V0_Rev0 as API} from "@enkore/spec"\n`
+				code += `import type {EnkoreTargetIntegrationAPI_V0_Rev0 as API} from "@asint/enkore__spec"\n`
 
 				code += `const api = await generateTargetIntegrationAPI("js-none");\n`
 
@@ -61,7 +61,7 @@ export const config: unknown = createConfig({
 				let code = ``
 
 				code += `import {generateProjectAPI} from "@enkore/target-js-factory/project"\n`
-				code += `import type {EnkoreTargetJSProjectAPI_V0_Rev0 as API} from "@enkore/spec"\n`
+				code += `import type {EnkoreTargetJSProjectAPI_V0_Rev0 as API} from "@asint/enkore__spec"\n`
 
 				code += `const api = await generateProjectAPI(["inferFromCLIArgs"]);\n`
 
@@ -79,7 +79,7 @@ export const config: unknown = createConfig({
 				let code = ``
 
 				code += `import {generateAutogenerateAPI} from "@enkore/target-js-factory/autogenerate"\n`
-				code += `import type {EnkoreTargetJSAutogenerateAPI_V0_Rev0 as API} from "@enkore/spec"\n`
+				code += `import type {EnkoreTargetJSAutogenerateAPI_V0_Rev0 as API} from "@asint/enkore__spec"\n`
 
 				code += `const api = await generateAutogenerateAPI("js-none");\n`
 
