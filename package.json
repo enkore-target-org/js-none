@@ -13,8 +13,7 @@
     "@asint/enkore": "^0.0.43",
     "@asint/enkore__core": "^0.8.4",
     "@asint/enkore__spec": "^0.269.0",
-    "@enkore-target/js-none": "^0.0.65",
-    "@enkore/target-js-factory": "^0.0.52"
+    "@enkore-target/js-none": "^0.0.65"
   },
   "peerDependencies": {
     "@types/node": ">=22.7.x"
