@@ -27,10 +27,6 @@ export const config: unknown = createConfig({
 			},
 
 			registry: {
-				"npmjs": {
-					url: "https://registry.npmjs.org",
-					authTokenFilePath: "secrets/npm_auth_token"
-				},
 				"anioSoftware": {
 					url: "https://npm-registry.anio.software",
 					authTokenFilePath: "secrets/anio_npm_auth_token",
@@ -40,20 +36,13 @@ export const config: unknown = createConfig({
 			},
 
 			packageSourceRegistryByScope: {
-				"@anio-software": {
-					registry: "anioSoftware"
-				},
 				"@asint": {
 					registry: "anioSoftware"
 				}
 			},
 
 			publish: [{
-				packageName: "@exory2024/enkore-target-js-none-test-pkg",
-				publishWithProvenance: true,
-				registry: "npmjs"
-			}, {
-				packageName: "@anio-software/enkore.target-js-none",
+				packageName: "@asint/enkore-target__js-none",
 				registry: "anioSoftware"
 			}]
 		})
