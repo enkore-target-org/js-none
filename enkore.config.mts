@@ -42,6 +42,9 @@ export const config: unknown = createConfig({
 			packageSourceRegistryByScope: {
 				"@anio-software": {
 					registry: "anioSoftware"
+				},
+				"@asint": {
+					registry: "anioSoftware"
 				}
 			},
 
