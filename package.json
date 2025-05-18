@@ -11,9 +11,9 @@
   "type": "module",
   "devDependencies": {
     "@anio-software/enkore.spec": "^0.273.0",
+    "@anio-software/enkore.target-js-factory": "^0.0.61",
     "@asint/enkore": "^0.0.44",
     "@asint/enkore__core": "^0.8.5",
-    "@asint/enkore__target-js-factory": "^0.0.60",
     "@asint/enkore-target__js-none": "^0.0.71"
   },
   "peerDependencies": {
