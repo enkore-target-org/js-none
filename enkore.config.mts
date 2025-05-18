@@ -49,11 +49,11 @@ export const config: unknown = createConfig({
 			},
 
 			publish: [{
-				packageName: "@anio-software/enkore-target.js-none",
+				packageName: "@exory2024/enkore-target-js-none-test-pkg",
 				publishWithProvenance: true,
 				registry: "npmjs"
 			}, {
-				packageName: "@anio-software/enkore-target.js-none",
+				packageName: "@anio-software/enkore.target-js-none",
 				registry: "anioSoftware"
 			}]
 		})
