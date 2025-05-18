@@ -39,6 +39,12 @@ export const config: unknown = createConfig({
 				}
 			},
 
+			packageSourceRegistryByScope: {
+				"@anio-software": {
+					registry: "anioSoftware"
+				}
+			},
+
 			publish: [{
 				packageName: "@anio-software/enkore-target.js-none",
 				publishWithProvenance: true,
