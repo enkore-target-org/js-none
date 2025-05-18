@@ -10,11 +10,11 @@
   },
   "type": "module",
   "devDependencies": {
+    "@anio-software/enkore": "^0.0.52",
+    "@anio-software/enkore.core": "^0.9.2",
     "@anio-software/enkore.spec": "^0.273.0",
     "@anio-software/enkore.target-js-factory": "^0.0.62",
-    "@asint/enkore": "^0.0.44",
-    "@asint/enkore__core": "^0.8.5",
-    "@asint/enkore-target__js-none": "^0.0.71"
+    "@anio-software/enkore.target-js-none": "^0.0.74"
   },
   "peerDependencies": {
     "@types/node": ">=22.7.x"
