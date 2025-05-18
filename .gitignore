@@ -6,6 +6,7 @@
 # Section managed by enkore ; DO NOT ADD ENTRIES AFTER THIS LINE! (f4300779-6ccc-4677-b496-44c833c4a2c3)
 .DS_Store
 /.enkore/
+/.npmrc
 /build/
 /node_modules/
 /objects/
