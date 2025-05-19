@@ -43,7 +43,8 @@ export const config: unknown = createConfig({
 
 			publish: [{
 				packageName: "@anio-software/enkore.target-js-none",
-				registry: "anioSoftware"
+				registry: "anioSoftware",
+				tag: isPublicRelease ? "latest" : "canary"
 			}]
 		})
 	},
