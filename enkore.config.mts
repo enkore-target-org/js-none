@@ -36,18 +36,12 @@ export const config: unknown = createConfig({
 			},
 
 			packageSourceRegistryByScope: {
-				"@asint": {
-					registry: "anioSoftware"
-				},
 				"@anio-software": {
 					registry: "anioSoftware"
 				}
 			},
 
 			publish: [{
-				packageName: "@asint/enkore-target__js-none",
-				registry: "anioSoftware"
-			}, {
 				packageName: "@anio-software/enkore.target-js-none",
 				registry: "anioSoftware"
 			}]
