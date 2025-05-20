@@ -10,11 +10,11 @@
   },
   "type": "module",
   "devDependencies": {
-    "@anio-software/enkore": "^0.0.55",
+    "@anio-software/enkore": "^0.0.56",
     "@anio-software/enkore-private.spec": "^0.277.0",
     "@anio-software/enkore-private.target-js-factory": "^0.0.80",
-    "@anio-software/enkore.core": "^0.9.6",
-    "@anio-software/enkore.target-js-none": "^0.0.85-canary-d9f1b3f2-a4b4058c"
+    "@anio-software/enkore.core": "^0.10.0",
+    "@anio-software/enkore.target-js-none": "^0.0.90-canary-92e3afc6-a04669e1"
   },
   "peerDependencies": {
     "@types/node": ">=22.7.x"
