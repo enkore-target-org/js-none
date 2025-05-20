@@ -20,7 +20,7 @@ export const config: unknown = createConfig({
 			exports: {
 				"targetIntegrationAPI": {
 					checkAgainstInterface: [
-						"@anio-software/enkore.spec",
+						"@anio-software/enkore-private.spec",
 						"EnkoreTargetIntegrationAPI_V0_Rev0"
 					]
 				}
@@ -55,7 +55,7 @@ export const config: unknown = createConfig({
 				let code = ``
 
 				code += `import {generateTargetIntegrationAPI} from "@anio-software/enkore.target-js-factory/targetIntegration"\n`
-				code += `import type {EnkoreTargetIntegrationAPI_V0_Rev0 as API} from "@anio-software/enkore.spec"\n`
+				code += `import type {EnkoreTargetIntegrationAPI_V0_Rev0 as API} from "@anio-software/enkore-private.spec"\n`
 
 				code += `const api = await generateTargetIntegrationAPI("js-none");\n`
 
@@ -73,7 +73,7 @@ export const config: unknown = createConfig({
 				let code = ``
 
 				code += `import {generateProjectAPI} from "@anio-software/enkore.target-js-factory/project"\n`
-				code += `import type {EnkoreTargetJSProjectAPI_V0_Rev0 as API} from "@anio-software/enkore.spec"\n`
+				code += `import type {EnkoreTargetJSProjectAPI_V0_Rev0 as API} from "@anio-software/enkore-private.spec"\n`
 
 				code += `const api = await generateProjectAPI(["inferFromCLIArgs"]);\n`
 
@@ -91,7 +91,7 @@ export const config: unknown = createConfig({
 				let code = ``
 
 				code += `import {generateAutogenerateAPI} from "@anio-software/enkore.target-js-factory/autogenerate"\n`
-				code += `import type {EnkoreTargetJSAutogenerateAPI_V0_Rev0 as API} from "@anio-software/enkore.spec"\n`
+				code += `import type {EnkoreTargetJSAutogenerateAPI_V0_Rev0 as API} from "@anio-software/enkore-private.spec"\n`
 
 				code += `const api = await generateAutogenerateAPI("js-none");\n`
 
