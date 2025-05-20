@@ -1,7 +1,7 @@
-import {generateAPIExportGlueCode} from "@anio-software/enkore.target-js-factory"
-import {getTargetIntegrationAPIMethodNames} from "@anio-software/enkore.target-js-factory/targetIntegration"
-import {getProjectAPIMethodNames} from "@anio-software/enkore.target-js-factory/project"
-import {getAutogenerateAPIMethodNames} from "@anio-software/enkore.target-js-factory/autogenerate"
+import {generateAPIExportGlueCode} from "@anio-software/enkore-private.target-js-factory"
+import {getTargetIntegrationAPIMethodNames} from "@anio-software/enkore-private.target-js-factory/targetIntegration"
+import {getProjectAPIMethodNames} from "@anio-software/enkore-private.target-js-factory/project"
+import {getAutogenerateAPIMethodNames} from "@anio-software/enkore-private.target-js-factory/autogenerate"
 
 import {
 	createConfig,
@@ -54,7 +54,7 @@ export const config: unknown = createConfig({
 			generator() {
 				let code = ``
 
-				code += `import {generateTargetIntegrationAPI} from "@anio-software/enkore.target-js-factory/targetIntegration"\n`
+				code += `import {generateTargetIntegrationAPI} from "@anio-software/enkore-private.target-js-factory/targetIntegration"\n`
 				code += `import type {EnkoreTargetIntegrationAPI_V0_Rev0 as API} from "@anio-software/enkore-private.spec"\n`
 
 				code += `const api = await generateTargetIntegrationAPI("js-none");\n`
@@ -72,7 +72,7 @@ export const config: unknown = createConfig({
 			generator() {
 				let code = ``
 
-				code += `import {generateProjectAPI} from "@anio-software/enkore.target-js-factory/project"\n`
+				code += `import {generateProjectAPI} from "@anio-software/enkore-private.target-js-factory/project"\n`
 				code += `import type {EnkoreTargetJSProjectAPI_V0_Rev0 as API} from "@anio-software/enkore-private.spec"\n`
 
 				code += `const api = await generateProjectAPI(["inferFromCLIArgs"]);\n`
@@ -90,7 +90,7 @@ export const config: unknown = createConfig({
 			generator() {
 				let code = ``
 
-				code += `import {generateAutogenerateAPI} from "@anio-software/enkore.target-js-factory/autogenerate"\n`
+				code += `import {generateAutogenerateAPI} from "@anio-software/enkore-private.target-js-factory/autogenerate"\n`
 				code += `import type {EnkoreTargetJSAutogenerateAPI_V0_Rev0 as API} from "@anio-software/enkore-private.spec"\n`
 
 				code += `const api = await generateAutogenerateAPI("js-none");\n`
