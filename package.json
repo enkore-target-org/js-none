@@ -14,7 +14,7 @@
     "@anio-software/enkore.core": "^0.9.5",
     "@anio-software/enkore.spec": "^0.275.0",
     "@anio-software/enkore.target-js-factory": "^0.0.73",
-    "@anio-software/enkore.target-js-none": "^0.0.83"
+    "@anio-software/enkore.target-js-none": "^0.0.85-canary-d9f1b3f2-a4b4058c"
   },
   "peerDependencies": {
     "@types/node": ">=22.7.x"
